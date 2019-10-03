@@ -11,7 +11,7 @@ int pos = 0;
 
 void setup() {
   Serial.begin(9600);
-  Serial.setTimeout(50);
+  Serial.setTimeout(75);
   pinMode(13, OUTPUT);
   index_finger.attach(9);
   
@@ -48,8 +48,9 @@ void doGripMotion(hand *hand){
 
 
 void loop() {
-  
-  Serial.println();
+  int sensorValue = analogRead(A0);
+  float voltage = sensorValue * (5.0 / 1023.0);
+  Serial.println(voltage);
   
   if(Serial.readString() == "changeGrip"){
     doGripMotion(&GARA);
