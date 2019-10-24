@@ -20,11 +20,12 @@ while(ser):
     currentTime = time.time()
     value = ser.readline()
     decoded = value.decode('utf-8')
+
     testList.append(int(decoded))
     counter += 1
     if currentTime > resetTime:
         for i in range(len(testList)):
-            if testList[i] >= 299:
+            if testList[i] >= 299: #was 4.0 in old master
                 print('           Onset Detected!')
                 break
         print(counter)
