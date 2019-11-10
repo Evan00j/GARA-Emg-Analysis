@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93469732-294f-453a-b881-8682489eb27c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Classification-Copy1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification-Copy1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TripleEMGDataFiles/TripleREST.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TripleEMGDataFiles/TripleREST.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification3Emgv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification3Emgv2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiread.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
@@ -37,6 +35,15 @@
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classification3Emgv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5409">
+              <caret line="379" lean-forward="true" selection-start-line="379" selection-end-line="379" />
             </state>
           </provider>
         </entry>
@@ -57,6 +64,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/multiread.py" />
+        <option value="$PROJECT_DIR$/Classification3Emgv2.py" />
       </list>
     </option>
   </component>
@@ -72,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,6 +91,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,17 +155,18 @@
       <workItem from="1569879278675" duration="1108000" />
       <workItem from="1570320939782" duration="643000" />
       <workItem from="1572372818619" duration="535000" />
+      <workItem from="1573426209921" duration="322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2286000" />
+    <option name="totallyTimeSpent" value="2608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="33" width="1400" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,6 +210,13 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification3Emgv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5409">
+          <caret line="379" lean-forward="true" selection-start-line="379" selection-end-line="379" />
         </state>
       </provider>
     </entry>
